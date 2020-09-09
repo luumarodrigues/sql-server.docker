@@ -6,7 +6,7 @@ services:
     container_name: mssql
     environment:
       ACCEPT_EULA: "Y"
-      SA_PASSWORD: admin@2020
+      SA_PASSWORD: YourPassword 
     volumes:
      - mssql-volume:/var/opt/mssql
     ports:
