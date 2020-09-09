@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  mssql:
+    image: microsoft/mssql-server-linux:latest
+    container_name: mssql
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: admin@2020
+    volumes:
+     - mssql-volume:/var/opt/mssql
+    ports:
+      - '1433:1433'
+
+volumes:
+    mssql-volume:
