@@ -31,9 +31,9 @@ $ docker-compose up -d
 - Preencher os dados de acesso
 
 ```
-**Server:**localhost
-**User name:** sa
-**Password:** YourPassword (ou a que você tiver configurado em docker-compose.yaml)
+Server:localhost
+Username: sa
+Password: YourPassword (ou a que você tiver configurado em docker-compose.yaml)
 ```
 - Clicar em Connect e deverá ter esse resultado:
 <p align="center">
