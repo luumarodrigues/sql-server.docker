@@ -1,4 +1,4 @@
-## SQL Server + SQL Operations Studio
+## SQL Server + SQL Operations Studio/ TablePlus
 
 Essa solução foi criada a partir da necessidade de ter uma instância de um servidor de Microsoft SQL Server no Mac OS, para desenvolvimento de aplicações, sem precisar de uma VM ou acesso remoto a máquinas Windows.
 
@@ -21,7 +21,7 @@ $ docker-compose up -d
 
 ### Instalar cliente MSSQL
 
-- Fazer download e instalação do Azure Data Studio [aqui](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017)
+- Fazer download e instalação do Azure Data Studio [aqui](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017) ou do TablePlus [aqui](https://tableplus.com), seguirei o exemplo com o Azure Data Studio.
 
 - Após a instalação, executar o Azure Data Studio
 <p align="center">
